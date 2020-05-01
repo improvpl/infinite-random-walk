@@ -1,0 +1,22 @@
+#mainCanvas {
+    border-color: skyblue;
+    border-width: 2px;
+    border-style: double;
+}
+
+body {
+    background-color: grey;
+}
+
+.textcontent {
+    background-color: white;
+    box-sizing: content-box;
+}
+
+.bright {
+    background-color: yellowgreen;
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+}
