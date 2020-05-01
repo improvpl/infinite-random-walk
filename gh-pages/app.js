@@ -1,3 +1,6 @@
+const canvas = document.getElementById("mainCanvas");
+const ctx = canvas.getContext("2d");
+
 function cycle(a_list, total) {
     package = a_list[total]
     if (total <= a_list.length) {
@@ -38,9 +41,12 @@ function* next_step(steps) {
     }
 }
 
+function clear_canvas() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
 function random_walk() {
-    const canvas = document.getElementById("mainCanvas");
-    const ctx = canvas.getContext("2d");
+
     ctx.beginPath();
     let energy = 1000
     x_now = 300
