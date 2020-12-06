@@ -10,5 +10,7 @@ Click generate to start drawing a line using the random walk algorithm which det
 They are generated using JavaScripts random module
 For example to generate a random number in JavaScript just write the following:
 
-```Math.random()
-0.8549689228426061```
+```
+Math.random()
+0.8549689228426061
+```
