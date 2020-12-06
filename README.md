@@ -19,3 +19,13 @@ To generate a random integer modify the code slightly:
 Math.floor(Math.random()*10)
 >>3
 ```
+You can go further and create a random choice function:
+```
+function randomElement(list){
+let choice = Math.floor(Math.random()*list.length)
+return list[choice]
+}
+```
+# What's the purpose of this project?
+
+Explore what's possible given just a bunch of random numbers
