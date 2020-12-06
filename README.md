@@ -12,5 +12,10 @@ For example to generate a random number in JavaScript just write the following:
 
 ```
 Math.random()
-0.8549689228426061
+>>0.8549689228426061
+```
+To generate a random integer modify the code slightly:
+```
+Math.floor(Math.random()*10)
+>>3
 ```
